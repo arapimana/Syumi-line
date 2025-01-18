@@ -3,10 +3,10 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "showdown") {
-        result.textContent = "暇なんですね！";
-    } else if (answerInput === "？？") {
-        result.textContent = "そうじゃないっす";
+        result.textContent = "......";
+    } else if (answerInput === "????????!") {
+        result.textContent = "???????";
     } else {
-        result.textContent = "残念,,,";
+        result.textContent = "ライセンス資格なし";
     }
 }
