@@ -3,7 +3,7 @@ function checkAnswer() {
     const result = document.getElementById('result');
 
     if (answerInput === "showdown") {
-        result.textContent = "......";
+        result.innerHTML = '<a href="https://arapimana.github.io/ohayou/" target="_blank">ライセンス資格確認</a>';
     } else if (answerInput === "????????!") {
         result.textContent = "???????";
     } else {
