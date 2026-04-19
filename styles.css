@@ -48,9 +48,11 @@ button:hover {
 
 /* 追加：長いバイナリを折り返すための設定 */
 .long-text {
-    word-break: break-all;    /* 右端で強制改行 */
-    font-size: 12px;          /* 少し小さくして読みやすく */
-    color: #888;              /* 少しグレーにして「サブ情報」感を出す */
-    margin: 15px 0;           /* 上下に少し余白 */
-    font-family: monospace;   /* 等幅フォントでシステムっぽく */
+    word-break: break-all;    /* 右端で強制改行（必須） */
+    font-size: 18px;          /* ★ここを大きくしました（お好みで 20px などに調整してください） */
+    font-weight: bold;        /* ★太字にするとさらにインパクトが出ます */
+    color: #fff;              /* ★文字色を白くして目立たせました */
+    margin: 15px 0;
+    font-family: monospace;
+    line-height: 1.4;         /* 行間を少し広げて読みやすくしました */
 }
