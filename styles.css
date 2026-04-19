@@ -1,4 +1,4 @@
-body {
+body { /* 先頭を小文字の body に直しておきました */
     background-color: #000;
     color: #fff;
     display: flex;
@@ -14,6 +14,8 @@ body {
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
+    /* コンテナから文字がはみ出さないよう最大幅を設定 */
+    max-width: 90%; 
 }
 
 input, button {
@@ -42,4 +44,13 @@ button:hover {
 #result {
     margin-top: 20px;
     font-size: 18px;
+}
+
+/* 追加：長いバイナリを折り返すための設定 */
+.long-text {
+    word-break: break-all;    /* 右端で強制改行 */
+    font-size: 12px;          /* 少し小さくして読みやすく */
+    color: #888;              /* 少しグレーにして「サブ情報」感を出す */
+    margin: 15px 0;           /* 上下に少し余白 */
+    font-family: monospace;   /* 等幅フォントでシステムっぽく */
 }
