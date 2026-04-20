@@ -5,7 +5,7 @@ function checkAnswer() {
 
     const hashedInput = CryptoJS.MD5(answerInput).toString();
 
-
+    console.log("現在のハッシュ:", hashedInput);
     const targetHash1 = "772f44c4ca008985390979379637890b";
 
     if (hashedInput === targetHash1) {
