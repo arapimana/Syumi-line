@@ -8,7 +8,7 @@ function checkAnswer() {
 
     if (hashedInput === targetHash1) {
 
-        result.innerHTML = '<a href="https://arapimana.github.io/Syumi-line/" target="_blank" style="color: #00ff00; font-weight: bold; font-size: 20px; text-decoration: underline;">ライセンス資格確認</a>';
+        result.innerHTML = '<a href="https://arapimana.github.io/ohayou/" target="_blank" style="color: #00ff00; font-weight: bold; font-size: 20px; text-decoration: underline;">ライセンス資格確認</a>';
     } else {
         result.textContent = "ライセンス資格なし";
         result.style.color = "red";
