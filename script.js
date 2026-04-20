@@ -3,13 +3,8 @@ function checkAnswer() {
     const answerInput = document.getElementById('answerInput').value.trim().toLowerCase();
     const result = document.getElementById('result');
 
-    const hashedInput = CryptoJS.MD5(answerInput).toString();
-
-    console.log("現在のハッシュ:", hashedInput);
-    const targetHash1 = "772f44c4ca008985390979379637890b";
-
-    if (hashedInput === targetHash1) {
-        result.innerHTML = '<a href="https://arapimana.github.io/Syumi-line/" target="_blank">ライセンス資格確認</a>';
+    if (answerInput === "showdown") {
+        result.innerHTML = '<a href="https://arapimana.github.io/Syumi-line/" target="_blank" style="color: #00ff00; font-weight: bold; font-size: 20px;">ライセンス資格確認</a>';
     } else {
         result.textContent = "ライセンス資格なし";
     }
