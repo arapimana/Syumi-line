@@ -40,9 +40,10 @@ button:hover {
     background-color: #666;
 }
 
-#result {
-    margin-top: 20px;
-    font-size: 18px;
+#result a {
+    color: #00ff00;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .long-text {
