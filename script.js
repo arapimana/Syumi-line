@@ -9,7 +9,7 @@ function checkAnswer() {
     const targetHash1 = "772f44c4ca008985390979379637890b";
 
     if (hashedInput === targetHash1) {
-        result.innerHTML = '<a href="https://arapimana.github.io/ohayou/" target="_blank">ライセンス資格確認</a>';
+        result.innerHTML = '<a href="https://arapimana.github.io/Syumi-line/" target="_blank">ライセンス資格確認</a>';
     } else {
         result.textContent = "ライセンス資格なし";
     }
