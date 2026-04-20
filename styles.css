@@ -1,4 +1,4 @@
-body { /* 先頭を小文字の body に直しておきました */
+body {
     background-color: #000;
     color: #fff;
     display: flex;
@@ -14,7 +14,6 @@ body { /* 先頭を小文字の body に直しておきました */
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
-    /* コンテナから文字がはみ出さないよう最大幅を設定 */
     max-width: 90%; 
 }
 
@@ -46,13 +45,12 @@ button:hover {
     font-size: 18px;
 }
 
-/* 追加：長いバイナリを折り返すための設定 */
 .long-text {
-    word-break: break-all;    /* 右端で強制改行（必須） */
-    font-size: 23px;          /* ★ここを大きくしました（お好みで 20px などに調整してください） */
-    font-weight: bold;        /* ★太字にするとさらにインパクトが出ます */
-    color: #fff;              /* ★文字色を白くして目立たせました */
+    word-break: break-all;
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
     margin: 15px 0;
     font-family: monospace;
-    line-height: 1.4;         /* 行間を少し広げて読みやすくしました */
+    line-height: 1.4; 
 }
